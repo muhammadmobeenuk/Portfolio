@@ -187,7 +187,7 @@ export const CLI_COMMANDS = {
       "  EMAIL:         muhammadmobeen20011@gmail.com",
       "  LOCATION:      London, NW9 6EJ, United Kingdom",
       "  RIGHT TO WORK: Full Right to Work in the UK (Spouse Visa)",
-      "  LINKEDIN:      https://www.linkedin.com/in/muhammad-mobeen-8120b3347",
+      "  LINKEDIN:      https://www.linkedin.com/in/muhammadmobeenuk",
       "  GITHUB:        https://github.com/Mobeen-2024",
       "  PORTFOLIO:     https://my-project-portfolios-projects-ed15ad56.vercel.app/"
     ]
@@ -238,7 +238,7 @@ export const EXECUTIVE_ANSWERS = {
   contact: {
     title: "Direct Contact Coordinates & UK Right to Work",
     thoughtTrace: "Retrieving verified contact details and visa status...",
-    response: "Muhammad Mobeen is based in London, NW9 6EJ, and holds Full Right to Work in the UK under a Spouse Visa. You can reach him directly at 07351187884, via email at muhammadmobeen20011@gmail.com, or connect on LinkedIn at https://www.linkedin.com/in/muhammad-mobeen-8120b3347."
+    response: "Muhammad Mobeen is based in London, NW9 6EJ, and holds Full Right to Work in the UK under a Spouse Visa. You can reach him directly at 07351187884, via email at muhammadmobeen20011@gmail.com, or connect on LinkedIn at https://www.linkedin.com/in/muhammadmobeenuk."
   },
   languages: {
     title: "Multilingual Communication",

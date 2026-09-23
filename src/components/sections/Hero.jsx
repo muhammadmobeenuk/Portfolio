@@ -119,7 +119,7 @@ export default function Hero({ title, subtitle, isGodMode, themeMode = 'dark', o
           </button>
 
           <a
-            href="https://www.linkedin.com/in/muhammad-mobeen-8120b3347"
+            href="https://www.linkedin.com/in/muhammadmobeenuk"
             target="_blank"
             rel="noreferrer"
             className={`px-6 py-4 rounded-2xl font-bold text-xs sm:text-sm tracking-wider uppercase transition-all duration-300 flex items-center gap-2 border active:scale-95 cursor-pointer backdrop-blur-xl ${
