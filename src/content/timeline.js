@@ -2,63 +2,95 @@
 
 export const TIMELINE_DATA = [
   {
-    id: "edu-comptia",
-    section: "Education",
-    role: "CompTIA A+ Certification Prep",
-    timeline: "Sep 2026 – Nov 2026",
-    location: "London, UK",
-    orderIndex: 8,
+    id: "proj-cryptobot",
+    section: "Experience",
+    role: "Independent Full-Stack Development (CryptoBot 1.0)",
+    timeline: "Sep 2023 – Jun 2024",
+    location: "Independent",
+    orderIndex: 6,
     executive: {
-      role: "CompTIA A+ Certification Prep",
-      company: "Certification & Systems Practice (London, UK)",
-      description: "Structured examination preparation and hands-on lab practice across CompTIA A+ Core 1 (220-1101) and Core 2 (220-1102) domains, establishing certified proficiency in computer hardware, networking protocols, operating system internals, and security administration.",
+      role: "CryptoBot 1.0 | High-Frequency Algorithmic Execution Engine",
+      company: "Independent Full-Stack Development",
+      description: "Architected an institutional-grade cryptocurrency trading terminal and execution engine, facilitating real-time Master-to-Slave trade mirroring across up to 20 concurrent accounts via CCXT and User Data Stream WebSockets.",
       achievements: [
-        "Validating core enterprise hardware diagnostics, peripheral configuration, and virtualization foundations",
-        "Configuring Layer 2/Layer 3 networking protocols: TCP/IP, DNS, DHCP, VLANs, and wireless security",
-        "Mastering multi-OS administration across Windows 10/11, Linux terminal CLI, and incident management procedures"
+        "Architected real-time trade mirroring across up to 20 concurrent accounts via CCXT and User Data Stream WebSockets",
+        "Engineered automated Delta-Neutral and Voltron Straddle hedging algorithms, eliminating execution slippage and unhedged drawdowns by actively managing dynamic ATR spread friction",
+        "Integrated a multi-kernel AI pilot (Gemini 3.1/Gemma) for real-time market regime classification, coupled with a zero-risk SQLite-backed virtual paper trading sandbox",
+        "Resolved high-concurrency order parity failure points by implementing robust error handling for WebSocket reconnection packet drops during extreme market volatility"
       ],
-      tags: ["CompTIA A+", "Networking (TCP/IP)", "OS Diagnostics", "Virtualization", "Security"]
+      tags: ["React 19", "Node.js", "Express", "WebSockets", "CCXT", "SQLite", "Google Gemini & Gemma"]
     },
     architect: {
-      role: "COMPTIA_A+_CERTIFICATION_PIPELINE",
-      company: "CORE_1_&_CORE_2_EXAM_DOMAINS",
-      description: "Systematic diagnostic modeling and hardware simulation across 220-1101 & 220-1102 exam criteria, validating hardware buses, network packet flows, and security protocols.",
+      role: "CRYPTOBOT_MULTI_KERNEL_TERMINAL",
+      company: "HIGH_FREQUENCY_TRADING_LAB",
+      description: "Event-driven algorithmic execution engine orchestrated via Node.js/Express, CCXT exchange abstraction, and an isolated SQLite paper trading sandbox.",
       achievements: [
-        "Synthesized protocol behaviors for DHCP DORA cycle, DNS hierarchy, subnet boundaries, and 802.11 Wi-Fi standards",
-        "Automated Windows CLI diagnostics (DISM, SFC, Netsh, Diskpart) and Linux bash administration workflows",
-        "Hardened access control, endpoint security policies, and incident response runbooks"
+        "Engineered EventBus real-time HedgeScore decision engine from drawdown, liquidity, and ATR friction",
+        "Streamed Binance WebSocket 1m-1M OHLCV klines and orderbook depth into custom TradingView canvas",
+        "Built isolated SQLite paper trading ledgers (trades.db & shadow_orders.db) with margin simulation"
       ],
-      tags: ["220-1101 / 220-1102", "TCP/IP Subnetting", "PowerShell / Bash", "OS Hardening", "Hardware Telemetry"]
+      tags: ["Node.js / Express", "WebSockets", "SQLite", "Delta Hedging", "CCXT"]
     }
   },
   {
     id: "proj-hisaab",
-    section: "Projects",
-    role: "Hisaab-Kitaab Finance App",
-    timeline: "Jul 2024 – Feb 2025",
+    section: "Experience",
+    role: "Independent Full-Stack Development (Hisaab-Kitaab)",
+    timeline: "Jul 2024 – May 2025",
     location: "Independent",
     orderIndex: 7,
     executive: {
-      role: "Hisaab-Kitaab Finance App",
-      company: "Independent Engineering",
-      description: "Architected a localized, offline-first financial ledger (Khata) and business management PWA/Android APK designed to digitize informal credit for merchants, featuring hands-free voice accounting and receipt OCR.",
+      role: "Hisaab-Kitaab | Offline-First Financial PWA",
+      company: "Independent Full-Stack Development",
+      description: "Developed a localized, offline-first Progressive Web Application (PWA) to digitize merchant credit ledgers, reducing manual transaction entry time by over 80%.",
       achievements: [
-        "Implemented zero-latency offline persistence using Dexie.js (IndexedDB) with optional Firebase cloud sync",
-        "Integrated Gemini 3.1 Flash real-time voice accounting and multimodal receipt parsing (Gemini Vision + Tesseract.js)",
-        "Delivered full English, Urdu (اردو), and Roman Urdu support with dynamic RTL layouts"
+        "Designed a zero-latency offline persistence architecture utilizing Dexie.js (IndexedDB) with reactive live queries, bypassing spotty network connectivity with optional Firebase cloud sync",
+        "Built a dual-engine multimodal ingestion pipeline combining Gemini 3.1 Flash voice accounting with Tesseract.js OCR to automatically parse receipts, PDFs, and mobile money statements",
+        "Implemented strict UI/UX parity supporting English, Urdu, and Roman Urdu with dynamic Right-to-Left (RTL) layout switching"
       ],
-      tags: ["React 19", "Dexie.js (IndexedDB)", "Gemini 3.1 Flash", "Offline PWA", "Tailwind CSS"]
+      tags: ["React 19", "TypeScript", "Dexie.js", "Tailwind CSS", "Gemini 3.1 Flash", "Tesseract.js"]
     },
     architect: {
       role: "HISAAB_KITAAB_REACTIVE_LEDGER",
       company: "LOCAL_FIRST_FINANCIAL_ENGINE",
-      description: "Reactive offline-first financial datastore utilizing Dexie.js v4 for schema-versioned client-side storage, WebRTC real-time voice streaming with Gemini 3.1, and dual-engine receipt OCR.",
+      description: "Reactive offline-first financial datastore utilizing Dexie.js for schema-versioned client-side storage, WebRTC real-time voice streaming with Gemini 3.1, and dual-engine receipt OCR.",
       achievements: [
         "Engineered ACID client datastore with live query propagation and background sync queues",
         "Built deterministic fallback parsers for mobile money statements (JazzCash / Easypaisa)",
-        "Packaged universal build targets across PWA Workbox precaching and native Capacitor 8 Android APK"
+        "Packaged universal build targets across PWA Workbox precaching and native Capacitor Android APK"
       ],
-      tags: ["Dexie v4", "WebRTC Audio", "Gemini Vision", "Capacitor 8", "Workbox PWA"]
+      tags: ["Dexie.js", "WebRTC Audio", "Gemini Vision", "OCR", "PWA"]
+    }
+  },
+  {
+    id: "proj-repx",
+    section: "Experience",
+    role: "Independent Full-Stack Development (RepX AI)",
+    timeline: "Jun 2025 – Present",
+    location: "Independent",
+    orderIndex: 8,
+    executive: {
+      role: "RepX AI | 3D WebGL Fitness Intelligence Platform",
+      company: "Independent Full-Stack Development",
+      description: "Engineered a high-performance fitness platform featuring an interactive 3D WebGL athlete anatomy model, utilizing custom GLSL bio-electric shaders and raycastable sub-muscle telemetry.",
+      achievements: [
+        "Developed a deterministic, multi-factor recommendation engine delivering <5ms response times by normalizing 605k+ dataset records using Polars across 3,213 canonical exercises",
+        "Solved mobile background timer throttling—a critical failure point during active workout sessions—by utilizing absolute Unix epoch calculations for deterministic state recovery",
+        "Enforced strict trust-bounded AI architectures by constraining LLM coaching strictly to pre-scored deterministic candidates, successfully eliminating generative exercise hallucinations",
+        "Secured local-first offline execution by wrapping IndexedDB storage in SHA-256 cryptographic envelopes"
+      ],
+      tags: ["React 19", "TypeScript", "Three.js", "WebGL/GLSL", "IndexedDB", "Polars"]
+    },
+    architect: {
+      role: "REPX_AI_CORE_PLATFORM",
+      company: "FITNESS_INTELLIGENCE_ENGINE",
+      description: "Constructed an enterprise cybernetic fitness engine combining Three.js 3D anatomy rendering with runtime spatial mesh splitting, custom GLSL Bio-Electric muscle charge shaders, and an offline-first IndexedDB finite-state machine.",
+      achievements: [
+        "605k Kaggle Raw Record Ingestion & Polars High-Performance Normalization",
+        "3D Spatial Partition & GLSL Bio-Electric Muscle Charge Shader Rendering",
+        "IndexedDB Local-First State Buffering & SHA-256 Cryptographic Envelope Sync"
+      ],
+      tags: ["Three.js (GLSL)", "Polars", "IndexedDB", "SHA-256", "Deterministic AI"]
     }
   },
   {
@@ -67,21 +99,20 @@ export const TIMELINE_DATA = [
     role: "IT Infrastructure & Hardware Technician",
     timeline: "Jan 2024 – Present",
     location: "London, UK",
-    orderIndex: 6,
+    orderIndex: 5,
     executive: {
       role: "IT Infrastructure & Hardware Technician",
-      company: "Technical Hardware & Infrastructure (London, UK)",
-      description: "Performing component-level diagnostics, electronic repairs, and system recovery on compromised enterprise and consumer hardware. Custom-engineering lithium-ion power packs with active Battery Management Systems (BMS).",
+      company: "Independent Contracting (London, UK)",
+      description: "Perform component-level diagnostics, electronic repairs, and system recovery on compromised enterprise and consumer hardware.",
       achievements: [
-        "Restored liquid-damaged motherboards and circuitry through ultrasonic decontamination and microscopic trace reconstruction",
-        "Custom-engineered lithium-ion battery packs with active BMS, extending operational runtime by 100%",
-        "Conducted precision SMD micro-soldering, component replacements, and multi-rail voltage impedance checks"
+        "Execute precision SMD micro-soldering, trace reconstruction, and multi-rail voltage impedance checks on liquid-damaged motherboards",
+        "Custom-engineer lithium-ion battery packs integrating active Battery Management Systems (BMS), successfully extending operational runtimes by 100%"
       ],
-      tags: ["Hardware Diagnostics", "Micro-Soldering", "Active BMS", "Lithium-Ion", "Trace Reconstruction"]
+      tags: ["Component-Level Diagnostics", "SMD Micro-Soldering", "Active BMS", "Lithium-Ion", "Trace Reconstruction"]
     },
     architect: {
       role: "HARDWARE_DIAGNOSTICS_&_SYSTEMS_TECHNICIAN",
-      company: "COMPONENT_LEVEL_LAB_OPS",
+      company: "INDEPENDENT_CONTRACTING",
       description: "Tracing microscopic PCB power rails, isolating short-to-ground conditions with thermal probes and digital multimeters, and fabricating balanced multi-cell battery packs.",
       achievements: [
         "Engineered custom multi-cell Li-ion pack with balanced charge management and over-current protection",
@@ -94,18 +125,17 @@ export const TIMELINE_DATA = [
   {
     id: "exp-cctv",
     section: "Experience",
-    role: "Physical Infrastructure & CCTV Deployment",
+    role: "Physical Infrastructure & CCTV Deployment Engineer",
     timeline: "Sep 2022 – Dec 2023",
     location: "Pakistan",
-    orderIndex: 5,
+    orderIndex: 4,
     executive: {
-      role: "Physical Infrastructure & CCTV Deployment",
-      company: "Appliance & Infrastructure Installations (Pakistan)",
-      description: "Planned and executed on-premises CCTV surveillance networks, structured Cat6 network cabling, and local networking hardware installations for commercial and residential facilities.",
+      role: "Physical Infrastructure & CCTV Deployment Engineer",
+      company: "Commercial & Residential Installations",
+      description: "Planned and executed on-premises CCTV surveillance networks, structured Cat6 network cabling, and local networking hardware installations for commercial facilities.",
       achievements: [
-        "Mounted and configured multi-camera CCTV networks with local NVR/DVR storage and secure remote access",
-        "Terminated and routed high-density Cat6 structured Ethernet cabling adhering strictly to T568B standards",
-        "Configured LAN/WLAN routers, subnetting, DHCP reservations, and port forwarding rules"
+        "Terminated and routed high-density Cat6 structured Ethernet cabling adhering strictly to T568B enterprise standards",
+        "Configured LAN/WLAN routers, subnetting, DHCP reservations, and port forwarding rules for secure remote NVR/DVR access"
       ],
       tags: ["CCTV (NVR/DVR)", "Cat6 Cabling", "LAN / WLAN", "Router Config", "Hardware Mounting"]
     },
@@ -122,76 +152,44 @@ export const TIMELINE_DATA = [
     }
   },
   {
-    id: "proj-cryptobot",
-    section: "Projects",
-    role: "CryptoBot 1.0 Terminal Architecture",
-    timeline: "Feb 2021 – Present",
-    location: "Independent",
-    orderIndex: 4,
-    executive: {
-      role: "CryptoBot 1.0 Terminal Architecture",
-      company: "Independent Engineering",
-      description: "Engineered an institutional-grade cryptocurrency trading terminal and execution engine with real-time Master-to-Slave trade mirroring, automated Delta-Neutral hedging, and multi-kernel AI pilot.",
-      achievements: [
-        "Architected real-time trade mirroring across up to 20 accounts via CCXT and Binance User Data Streams",
-        "Engineered automated Delta Master (5 USDT buffer) and Voltron Straddle hedging algorithms",
-        "Integrated multi-kernel Google Gemini 3.1 Flash & Gemma 3 27B AI pilot with TradingView Lightweight Charts canvas"
-      ],
-      tags: ["React 19", "Lightweight Charts", "WebSockets", "CCXT", "Google Gemini"]
-    },
-    architect: {
-      role: "CRYPTOBOT_MULTI_KERNEL_TERMINAL",
-      company: "HIGH_FREQUENCY_TRADING_LAB",
-      description: "Event-driven algorithmic execution engine orchestrated via Node.js/Express EventBus, Binance WebSocket feeds, CCXT exchange abstraction, and an isolated SQLite paper trading sandbox (Shadow Mode).",
-      achievements: [
-        "Engineered EventBus real-time HedgeScore decision engine from drawdown, liquidity, and ATR friction",
-        "Streamed Binance WebSocket 1m-1M OHLCV klines and orderbook depth into custom TradingView canvas",
-        "Built isolated SQLite paper trading ledgers (trades.db & shadow_orders.db) with 1x-125x margin simulation"
-      ],
-      tags: ["Node.js / Express", "WebSockets", "SQLite", "Delta Hedging", "EventBus"]
-    }
-  },
-  {
-    id: "proj-branding",
-    section: "Projects",
-    role: "Digital Branding & 3D Motion Design",
-    timeline: "Jan 2021 – Dec 2023",
-    location: "Independent",
+    id: "edu-comptia",
+    section: "Education",
+    role: "CompTIA A+ Certification Preparation",
+    timeline: "Target Completion: Nov 2026",
+    location: "London, UK",
     orderIndex: 3,
     executive: {
-      role: "Digital Branding & 3D Motion Design",
-      company: "Independent Practice",
-      description: "Directed end-to-end visual identity systems, 3D asset modeling, and motion design projects for diverse digital brands, marrying technical precision with contemporary UI/UX aesthetics.",
+      role: "CompTIA A+ Certification Preparation",
+      company: "London, UK",
+      description: "Structured lab practice across Core 1 (220-1101) and Core 2 (220-1102) domains.",
       achievements: [
-        "Created complete brand design packages, typography systems, vector graphics, and digital product assets",
-        "Modeled and rendered 3D spatial assets and animated motion graphics for digital products",
-        "Collaborated with digital agencies and independent creators to produce high-conversion visual collateral"
+        "Validating enterprise hardware diagnostics, Layer 2/3 networking protocols (TCP/IP, DNS, DHCP, VLANs), and multi-OS administration."
       ],
-      tags: ["3D Modeling", "Motion Graphics", "Brand Systems", "UI/UX Aesthetics", "Digital Assets"]
+      tags: ["CompTIA A+", "Networking (TCP/IP)", "OS Diagnostics", "Virtualization", "Security"]
     },
     architect: {
-      role: "DIGITAL_BRANDING_&_3D_MOTION_SYSTEMS",
-      company: "CREATIVE_VISUAL_LAB",
-      description: "Engineered brand guidelines, vector icon sets, 3D asset pipelines, and motion sequences with strict typographic scales and color science.",
+      role: "COMPTIA_A+_CERTIFICATION_PIPELINE",
+      company: "CORE_1_&_CORE_2_EXAM_DOMAINS",
+      description: "Systematic diagnostic modeling and hardware simulation across 220-1101 & 220-1102 exam criteria, validating hardware buses, network packet flows, and security protocols.",
       achievements: [
-        "Established modular design systems, brand guidelines, and high-fidelity vector assets",
-        "Rendered 3D spatial motion graphics and promotional sequence renders",
-        "Bridged visual design tokens with frontend component implementation"
+        "Synthesized protocol behaviors for DHCP DORA cycle, DNS hierarchy, subnet boundaries, and 802.11 Wi-Fi standards",
+        "Automated Windows CLI diagnostics (DISM, SFC, Netsh, Diskpart) and Linux bash administration workflows",
+        "Hardened access control, endpoint security policies, and incident response runbooks"
       ],
-      tags: ["3D Assets", "Motion Graphics", "Vector Systems", "Design Tokens", "Typography"]
+      tags: ["220-1101 / 220-1102", "TCP/IP Subnetting", "PowerShell / Bash", "OS Hardening", "Hardware Telemetry"]
     }
   },
   {
     id: "edu-ics",
     section: "Education",
-    role: "Super Wings (I.C.S)",
+    role: "Intermediate in Computer Science (I.C.S)",
     timeline: "Jul 2018 – Apr 2020",
-    location: "Pakistan",
+    location: "Super Wings College | Pakistan",
     orderIndex: 2,
     executive: {
-      role: "Super Wings (I.C.S)",
-      company: "Higher Secondary Education (Pakistan)",
-      description: "Completed Intermediate in Computer Science (I.C.S), building a formal grounding in computer architecture, algorithmic thinking, mathematics, and scientific fundamentals.",
+      role: "Intermediate in Computer Science (I.C.S)",
+      company: "Super Wings College",
+      description: "Core focus: Programming Logic, Computer Architecture, Computational Mathematics, and Applied Physics.",
       achievements: [
         "Studied core computer science principles, programming logic, data structures, and computer architecture",
         "Mastered computational mathematics, algebra, statistics, and applied electrical physics",
@@ -216,18 +214,18 @@ export const TIMELINE_DATA = [
     section: "Education",
     role: "Matriculation (GCSE Equivalent)",
     timeline: "Jan 2016 – Mar 2018",
-    location: "Pakistan",
+    location: "The Educators | Pakistan",
     orderIndex: 1,
     executive: {
       role: "Matriculation (GCSE Equivalent)",
-      company: "The Educators (Pakistan)",
-      description: "Completed foundational secondary education with science and computer science focus, establishing foundational disciplines in mathematics, scientific methodology, and analytical deduction.",
+      company: "The Educators",
+      description: "Science and Computer Science focus. Multilingual fluency: English, Urdu, Hindi, Punjabi.",
       achievements: [
         "Completed foundational secondary education with focus on science, mathematics, and computer fundamentals",
         "Developed multilingual fluency: English (Fluent), Urdu (Native), Hindi (Fluent), Punjabi (Fluent)",
         "Cultivated rigorous problem-solving approach directly applicable to IT support and systems diagnostics"
       ],
-      tags: ["Matriculation (GCSE Equivalent)", "Mathematics", "Multilingual", "Analytical Logic"]
+      tags: ["Matriculation", "Science", "Mathematics", "Multilingual", "Deductive Logic"]
     },
     architect: {
       role: "MATRICULATION_GCSE_EQUIVALENT",
@@ -242,3 +240,4 @@ export const TIMELINE_DATA = [
     }
   }
 ];
+

@@ -2,10 +2,10 @@
 
 export const AGENT_ROLES = {
   executive: {
-    name: "IT Systems & Support Advisor",
-    tagline: "Hardware Diagnostics, Infrastructure & Systems Engineering",
-    badge: "IT_ADVISOR_v1.0",
-    description: "An AI advisor providing verified insights into Muhammad Mobeen's IT support competencies, hardware repair capabilities, CompTIA A+ certification, and technical projects.",
+    name: "Software Engineer & Systems Architect",
+    tagline: "Real-Time Architectures, Offline-First PWAs & AI Integrations",
+    badge: "SOFTWARE_ENG_v1.0",
+    description: "An AI advisor providing verified insights into Muhammad Mobeen's full-stack software engineering competencies, real-time WebSocket architectures, offline-first PWAs, and AI model integrations.",
     suggestedQueries: [
       { id: "timeline", label: "⏱️ Career Timeline", query: "Can you provide Mobeen's complete career, education, and project timeline?" },
       { id: "comptia", label: "🛡️ CompTIA A+ Progress", query: "What is Mobeen's CompTIA A+ certification progress and competencies?" },
@@ -64,7 +64,7 @@ export const CLI_COMMANDS = {
       "  OPERATOR:         Muhammad Mobeen",
       "  LOCATION:         London, NW9 6EJ, United Kingdom",
       "  RIGHT TO WORK:    Full UK Right to Work (Spouse Visa - Verified)",
-      "  PRIMARY TARGET:   IT Support Specialist / Hardware Technician / Systems Engineer",
+      "  PRIMARY TARGET:   Systems-Minded Software Engineer",
       "  CERTIFICATION:    CompTIA A+ (In Progress — Core 1 & 2 Domains)",
       "  LANGUAGES:        English (Fluent), Urdu (Native), Hindi (Fluent), Punjabi (Fluent)",
       "  KERNEL STATUS:    Online (Vite 7 / React 19 / Express / Lightweight Charts / WebSockets / SQLite)"
@@ -87,14 +87,12 @@ export const CLI_COMMANDS = {
       ">> CONSOLIDATED MASTER TIMELINE (CHRONOLOGICAL TELEMETRY RECORD):",
       "  [01] [Education]   Matriculation (GCSE Equivalent)         :: Jan 2016 – Mar 2018 | Pakistan",
       "  [02] [Education]   Super Wings (I.C.S)                     :: Jul 2018 – Apr 2020 | Pakistan",
-      "  [03] [Projects]    Digital Branding & 3D Motion Design     :: Jan 2021 – Dec 2023 | Independent",
-      "  [04] [Projects]    CryptoBot 1.0 Terminal Architecture     :: Feb 2021 – Present  | Independent",
-      "  [05] [Experience]  Physical Infrastructure & CCTV Setup    :: Sep 2022 – Dec 2023 | Pakistan",
-      "  [06] [Experience]  IT Infrastructure & Hardware Technician :: Jan 2024 – Present  | London, UK",
-      "  [07] [Projects]    Hisaab-Kitaab Finance App               :: Jul 2024 – Feb 2025 | Independent",
-      "  [08] [Education]   CompTIA A+ Certification Prep           :: Sep 2026 – Nov 2026 | London, UK",
+      "  [03] [Experience]  Physical Infrastructure & CCTV Setup    :: Sep 2022 – Dec 2023 | Pakistan",
+      "  [04] [Experience]  Independent Full-Stack Development      :: Sep 2023 – Present  | Independent",
+      "  [05] [Experience]  IT Infrastructure & Hardware Technician :: Jan 2024 – Present  | London, UK",
+      "  [06] [Education]   CompTIA A+ Certification Prep           :: Target Nov 2026     | London, UK",
       "",
-      "Type 'hardware', 'network', 'cryptobot', or 'comptia' for deep-dive technical telemetry."
+      "Type 'hardware', 'network', 'cryptobot', 'repx', or 'comptia' for deep-dive technical telemetry."
     ]
   },
   projects: {
@@ -198,7 +196,7 @@ export const EXECUTIVE_ANSWERS = {
   timeline: {
     title: "Consolidated Master Timeline & Milestones",
     thoughtTrace: "Retrieving verified chronological record across education, projects, and enterprise experience...",
-    response: "Muhammad Mobeen's verified non-overlapping chronological record spans: (1) Matriculation (GCSE Equivalent) — The Educators (Jan 2016 – Mar 2018, Pakistan), (2) Super Wings (Intermediate in Computer Science / I.C.S, Jul 2018 – Apr 2020, Pakistan), (3) Digital Branding & 3D Motion Design (Jan 2021 – Dec 2023, Independent), (4) CryptoBot 1.0 Terminal Architecture (Feb 2021 – Present, Independent), (5) Physical Infrastructure & CCTV Deployment (Sep 2022 – Dec 2023, Pakistan), (6) IT Infrastructure & Hardware Technician (Jan 2024 – Present, London, UK), (7) Hisaab-Kitaab Finance App (Jul 2024 – Feb 2025, Independent), and (8) CompTIA A+ Certification Prep (Sep 2026 – Nov 2026, London, UK)."
+    response: "Muhammad Mobeen's verified non-overlapping chronological record spans: (1) Matriculation (GCSE Equivalent) — The Educators (Jan 2016 – Mar 2018, Pakistan), (2) Super Wings (Intermediate in Computer Science / I.C.S, Jul 2018 – Apr 2020, Pakistan), (3) Physical Infrastructure & CCTV Deployment (Sep 2022 – Dec 2023, Pakistan), (4) Independent Full-Stack Development (Sep 2023 – Present, Independent), (5) IT Infrastructure & Hardware Technician (Jan 2024 – Present, London, UK), and (6) CompTIA A+ Certification Prep (Target Nov 2026, London, UK)."
   },
   comptia: {
     title: "CompTIA A+ Certification & Systems Mastery",
@@ -293,7 +291,7 @@ export function processExecutiveQuery(queryText) {
   return {
     title: "Technical Profile Overview",
     thoughtTrace: `Processing query: "${queryText.slice(0, 40)}..." through technical knowledge graph`,
-    response: `Muhammad Mobeen is an IT Support Specialist and Systems Engineer with expertise in hardware diagnostics, component soldering, structured network cabling, and full-stack software development. Currently preparing for CompTIA A+ and available for IT roles in London with Full UK Right to Work (Spouse Visa).`
+    response: `Muhammad Mobeen is a Systems-minded Software Engineer with expertise in real-time WebSocket architectures, offline-first PWAs, and AI model integrations. Supported by a deep foundation in physical IT infrastructure, hardware diagnostics, and network deployments. Available for software engineering roles in London with Full UK Right to Work (Spouse Visa).`
   };
 }
 

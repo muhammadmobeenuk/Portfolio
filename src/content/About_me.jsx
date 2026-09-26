@@ -2,22 +2,22 @@
 const ABOUT_CONTENT = {
   executive: {
     title: "Technical Expertise & Operational Reliability",
-    bio: "Adaptable and technical IT Specialist with hands-on expertise in hardware diagnostics, component-level repair, network configuration, and full-stack system architecture. Based in London with Full Right to Work in the UK (Spouse Visa), I demonstrate strong problem-solving skills across physical infrastructure and software development, leveraging AI-assisted workflows to design end-to-end web applications and IoT systems. Currently preparing for the CompTIA A+ certification to further validate core networking and systems administration proficiency.",
+    bio: "Systems-minded Software Engineer specializing in real-time architectures, offline-first PWAs, and AI integrations. Based in London with Full UK Right to Work (Spouse Visa), I bring a unique cross-disciplinary approach to solving complex scaling bottlenecks. Leveraging a deep foundation in physical IT infrastructure and hardware diagnostics to write highly optimized, fault-tolerant code since September 2023.",
     metrics: [
-      { label: "Hardware Restorations", value: "Component-Level" },
-      { label: "Cabling Standard", value: "Cat6 T568B" },
-      { label: "Software Systems", value: "4 Deployments" },
-      { label: "Support Capability", value: "Tier 1 & 2 Ready" }
+      { label: "Software Systems", value: "Offline-First Architectures" },
+      { label: "Frontend & 3D", value: "React 19 / Three.js" },
+      { label: "Backend & APIs", value: "WebSockets / Node.js" },
+      { label: "Database Storage", value: "SQLite / IndexedDB" }
     ]
   },
   architect: {
-    title: "01_SYSTEM_&_HARDWARE_LOG",
-    bio: "Executing component-level diagnostics on liquid-damaged hardware, PCB micro-soldering, signal line tracing, and active BMS lithium-ion battery integration. Operating across Windows/Linux OS recovery, Arduino microcontroller relay logic, and high-concurrency React 19, Node.js Express & Binance WebSocket streaming. CompTIA A+ aligned across structured Cat6 cabling, router/WLAN deployment, and remote CCTV infrastructure.",
+    title: "01_SYSTEM_&_SOFTWARE_LOG",
+    bio: "Orchestrating real-time Master-to-Slave trade mirroring via CCXT, bypassing mobile background timer throttling for deterministic state recovery, and deploying offline-resilient IndexedDB ledgers. Combining 3D WebGL athlete anatomy models, custom GLSL bio-electric shaders, and multimodal AI ingestion pipelines with foundational hardware diagnostics and network deployment logic.",
     metrics: [
-      { label: "PCB Short Isolation", value: "Thermal Probing" },
-      { label: "Network Bandwidth", value: "1000BASE-T LAN" },
-      { label: "Embedded Relays", value: "Opto-Isolated AC" },
-      { label: "Reactive Datastore", value: "IndexedDB ACID" }
+      { label: "Real-Time Pipelines", value: "WebSocket Sync" },
+      { label: "Local-First Storage", value: "IndexedDB ACID" },
+      { label: "AI Integrations", value: "Gemini 3.1 / Gemma" },
+      { label: "Data Normalization", value: "Polars Pipeline" }
     ]
   }
 };
