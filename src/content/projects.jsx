@@ -13,7 +13,7 @@ export const PROJECTS = [
     executive: {
       title: "CryptoBot 1.0 Terminal",
       tagline: "High-Frequency Dual-Account Terminal & AI Bot Pilot",
-      description: "Institutional-grade cryptocurrency trading terminal and algorithmic execution engine styled after Binance Futures (#0B0E11). Engineered with real-time Master-to-Slave trade mirroring (scalable up to 20 accounts via CCXT and User Data Stream WebSockets), automated Delta-Neutral hedging (Delta Master & Voltron Straddle bots), multi-kernel Google Gemini/Gemma AI intelligence, TradingView Lightweight Charts canvas, and a zero-risk virtual paper trading sandbox (Shadow Mode) backed by SQLite.",
+      description: "An institutional-grade algorithmic trading terminal designed to replicate strategies across multiple accounts in real-time. Features automated risk management (Delta-Neutral hedging), AI-driven market analysis, and a zero-risk virtual trading sandbox to test strategies without financial exposure. Built to handle extreme market volatility with zero latency.",
       impact: "Real-Time WebSocket Mirroring & Delta Hedging",
       techStack: ["React 19", "Lightweight Charts", "Node.js / Express", "WebSockets / Socket.IO", "Google Gemini & Gemma", "CCXT", "Better-SQLite3", "Tailwind CSS 4"],
       keyMetrics: [
@@ -60,7 +60,7 @@ export const PROJECTS = [
     executive: {
       title: "Hisaab-Kitaab Finance App",
       tagline: "Digital Ledger (Khata) & Offline-First PWA",
-      description: "Architected a localized, offline-first financial ledger and business management PWA designed to digitize traditional credit ('Khata') for merchants and individuals. Powered by Dexie.js (IndexedDB) for zero-latency offline persistence with optional Firebase cloud sync, the platform features hands-free voice accounting via Gemini 3.1 Flash, multimodal document/receipt OCR parsing (Gemini Vision + Tesseract.js) with dedicated JazzCash/Easypaisa statement importers, and full English/Urdu/Roman Urdu RTL support.",
+      description: "A specialized financial ledger and business management application designed to digitize traditional credit for merchants. Engineered as an offline-first platform, it functions seamlessly without internet access. Features include hands-free voice accounting, automatic receipt scanning, and full multilingual support (English, Urdu) to drastically reduce manual data entry time.",
       impact: "Offline-First Digital Ledger & OCR Ingestion",
       techStack: ["React 19", "TypeScript", "Dexie.js (IndexedDB)", "Gemini 3.1 Flash", "Firebase", "Tailwind CSS v4", "Capacitor 8", "Tesseract.js"],
       keyMetrics: [
@@ -108,7 +108,7 @@ export const PROJECTS = [
     executive: {
       title: "RepX AI : Gym Platform",
       tagline: "Cybernetic Fitness Intelligence & 3D WebGL Telemetry",
-      description: "Engineered a personal fitness intelligence platform designed for the physical realities of the training floor: sweaty hands, background mobile throttling, and offline environments. Features an interactive 3D WebGL athlete anatomy model with raycastable sub-muscles and custom GLSL bio-electric shaders, a deterministic multi-factor recommendation engine over 3,213 canonical exercises normalized from 605k+ Kaggle records with Polars, and local-first offline persistence via IndexedDB with SHA-256 cryptographic envelopes.",
+      description: "A highly resilient personal fitness intelligence platform built for active gym environments. Overcomes poor connectivity and device throttling by running entirely offline. Key features include an interactive 3D anatomy visualizer and an AI-powered recommendation engine that processes over 600,000 data points to deliver instant, customized workout plans with zero lag.",
       impact: "3D WebGL Anatomy & Offline Resilience",
       techStack: ["Three.js", "WebGL / GLSL", "React 19", "TypeScript", "Drizzle ORM", "PostgreSQL / PGlite", "Python (Polars)", "Google Gemini"],
       keyMetrics: [
@@ -146,7 +146,7 @@ export const PROJECTS = [
     executive: {
       title: "Advanced Hardware Diagnostics & Repair",
       tagline: "Component-Level Restoration & BMS Engineering",
-      description: "Executed component-level diagnostics and repair on liquid-damaged hardware, disassembling circuitry, tracing signal lines, and restoring functional integrity. Custom-engineered power management solutions by integrating additional lithium-ion cells with an active BMS, increasing operational runtime by 100%.",
+      description: "Performed highly technical component-level diagnostics and repair on damaged enterprise and consumer hardware. Engineered custom power management solutions, including battery management systems, to successfully extend equipment operational runtime by over 100%, demonstrating a deep understanding of low-level electronics and physical IT systems.",
       impact: "+100% Operational Runtime",
       techStack: ["Micro-Soldering", "BMS Integration", "Motherboard Diagnostics", "Li-ion Cells", "Multimeter"],
       keyMetrics: [
@@ -189,7 +189,7 @@ export const PROJECTS = [
     executive: {
       title: "IoT Home Automation Framework",
       tagline: "Smart Microcontroller Automation",
-      description: "Designed and configured an IoT automation framework using Arduino microcontrollers and multi-channel relay modules. Established smart assistant ecosystem integrations for remote mobile and voice-controlled management of environmental systems.",
+      description: "Developed a comprehensive IoT home automation framework bridging hardware and software. Transformed standard electrical appliances into intelligent, voice-activated smart systems with mobile control, emphasizing safety, low latency, and secure network integration.",
       impact: "Unified Smart Environment",
       techStack: ["Arduino", "C/C++", "Relay Logic", "Smart Assistant", "IoT Protocols"],
       keyMetrics: [
@@ -227,7 +227,7 @@ export const PROJECTS = [
     executive: {
       title: "CCTV Network & Infrastructure",
       tagline: "Commercial & Residential Cabling",
-      description: "Deployed local CCTV network infrastructure, executing physical hardware mounting, cable routing, and remote access configuration. Performed physical structural modifications and electrical wiring integration for commercial and residential hardware installations.",
+      description: "Planned and deployed secure, on-premises network and surveillance infrastructure for commercial facilities. Managed structured cabling, IP routing, and firewall configurations to ensure robust, 24/7 facility monitoring with encrypted remote access.",
       impact: "Secure Multi-Point Coverage",
       techStack: ["CCTV (NVR/DVR)", "Structured Cabling (Cat6)", "LAN/WLAN", "Router Config", "Electrical Wiring"],
       keyMetrics: [

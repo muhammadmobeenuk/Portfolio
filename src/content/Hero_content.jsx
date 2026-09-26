@@ -1,9 +1,9 @@
 // src/content/Hero_content.jsx
 const HERO_CONTENT = {
   executive: {
-    label: "Systems-Minded Software Engineer",
-    title: "Real-Time Architectures. Offline-First PWAs. AI Integrations.",
-    subtitle: "Dedicated to full-stack software engineering with expertise in orchestrating WebSocket data streams and resilient state-management, built on a deep foundation in physical IT infrastructure.",
+    label: "Software Engineer",
+    title: "Building Highly Optimized, Fault-Tolerant Systems.",
+    subtitle: "I specialize in real-time data streaming, offline-first architectures, and practical AI integrations to solve complex scaling bottlenecks.",
     ctaPrimary: "Explore Technical Projects",
     ctaSecondary: "Consult Systems AI",
   },

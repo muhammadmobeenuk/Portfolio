@@ -4,13 +4,13 @@ export const TIMELINE_DATA = [
   {
     id: "proj-cryptobot",
     section: "Experience",
-    role: "Independent Full-Stack Development (CryptoBot 1.0)",
+    role: "Software Engineer (CryptoBot 1.0)",
     timeline: "Sep 2023 – Jun 2024",
     location: "Independent",
     orderIndex: 6,
     executive: {
       role: "CryptoBot 1.0 | High-Frequency Algorithmic Execution Engine",
-      company: "Independent Full-Stack Development",
+      company: "Independent Project",
       description: "Architected an institutional-grade cryptocurrency trading terminal and execution engine, facilitating real-time Master-to-Slave trade mirroring across up to 20 concurrent accounts via CCXT and User Data Stream WebSockets.",
       achievements: [
         "Architected real-time trade mirroring across up to 20 concurrent accounts via CCXT and User Data Stream WebSockets",
@@ -35,13 +35,13 @@ export const TIMELINE_DATA = [
   {
     id: "proj-hisaab",
     section: "Experience",
-    role: "Independent Full-Stack Development (Hisaab-Kitaab)",
+    role: "Software Engineer (Hisaab-Kitaab)",
     timeline: "Jul 2024 – May 2025",
     location: "Independent",
     orderIndex: 7,
     executive: {
       role: "Hisaab-Kitaab | Offline-First Financial PWA",
-      company: "Independent Full-Stack Development",
+      company: "Independent Project",
       description: "Developed a localized, offline-first Progressive Web Application (PWA) to digitize merchant credit ledgers, reducing manual transaction entry time by over 80%.",
       achievements: [
         "Designed a zero-latency offline persistence architecture utilizing Dexie.js (IndexedDB) with reactive live queries, bypassing spotty network connectivity with optional Firebase cloud sync",
@@ -65,13 +65,13 @@ export const TIMELINE_DATA = [
   {
     id: "proj-repx",
     section: "Experience",
-    role: "Independent Full-Stack Development (RepX AI)",
+    role: "Software Engineer (RepX AI)",
     timeline: "Jun 2025 – Present",
     location: "Independent",
     orderIndex: 8,
     executive: {
       role: "RepX AI | 3D WebGL Fitness Intelligence Platform",
-      company: "Independent Full-Stack Development",
+      company: "Independent Project",
       description: "Engineered a high-performance fitness platform featuring an interactive 3D WebGL athlete anatomy model, utilizing custom GLSL bio-electric shaders and raycastable sub-muscle telemetry.",
       achievements: [
         "Developed a deterministic, multi-factor recommendation engine delivering <5ms response times by normalizing 605k+ dataset records using Polars across 3,213 canonical exercises",
@@ -191,9 +191,8 @@ export const TIMELINE_DATA = [
       company: "Super Wings College",
       description: "Core focus: Programming Logic, Computer Architecture, Computational Mathematics, and Applied Physics.",
       achievements: [
-        "Studied core computer science principles, programming logic, data structures, and computer architecture",
-        "Mastered computational mathematics, algebra, statistics, and applied electrical physics",
-        "Cultivated methodical problem-solving routines directly bridging hardware and software logic"
+        "Studied core computer science principles, data structures, and computer architecture.",
+        "Developed foundational problem-solving skills bridging hardware logic and software programming."
       ],
       tags: ["Intermediate in CS (I.C.S)", "Programming Logic", "Computer Architecture", "Mathematics", "Physics"]
     },
@@ -221,9 +220,8 @@ export const TIMELINE_DATA = [
       company: "The Educators",
       description: "Science and Computer Science focus. Multilingual fluency: English, Urdu, Hindi, Punjabi.",
       achievements: [
-        "Completed foundational secondary education with focus on science, mathematics, and computer fundamentals",
-        "Developed multilingual fluency: English (Fluent), Urdu (Native), Hindi (Fluent), Punjabi (Fluent)",
-        "Cultivated rigorous problem-solving approach directly applicable to IT support and systems diagnostics"
+        "Completed foundational secondary education with a focus on science and mathematics.",
+        "Demonstrated multilingual fluency: English, Urdu, Hindi, and Punjabi."
       ],
       tags: ["Matriculation", "Science", "Mathematics", "Multilingual", "Deductive Logic"]
     },
