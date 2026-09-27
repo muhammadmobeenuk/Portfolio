@@ -9,16 +9,16 @@ export const TIMELINE_DATA = [
     location: "Independent",
     orderIndex: 6,
     executive: {
-      role: "CryptoBot 1.0 | High-Frequency Algorithmic Execution Engine",
-      company: "Independent Project",
-      description: "Architected an institutional-grade cryptocurrency trading terminal and execution engine, facilitating real-time Master-to-Slave trade mirroring across up to 20 concurrent accounts via CCXT and User Data Stream WebSockets.",
+      role: "CryptoBot 1.0 | Real-Time Algorithmic Execution Platform",
+      company: "Independent Product / Full-Stack Project",
+      description: "Architected a real-time execution terminal using React, Node.js and WebSockets, with Master-to-Slave trade mirroring across up to 20 concurrent accounts.",
       achievements: [
-        "Architected real-time trade mirroring across up to 20 concurrent accounts via CCXT and User Data Stream WebSockets",
-        "Engineered automated Delta-Neutral and Voltron Straddle hedging algorithms, eliminating execution slippage and unhedged drawdowns by actively managing dynamic ATR spread friction",
-        "Integrated a multi-kernel AI pilot (Gemini 3.1/Gemma) for real-time market regime classification, coupled with a zero-risk SQLite-backed virtual paper trading sandbox",
-        "Resolved high-concurrency order parity failure points by implementing robust error handling for WebSocket reconnection packet drops during extreme market volatility"
+        "Architected a real-time execution terminal using React, Node.js and WebSockets, with Master-to-Slave trade mirroring across up to 20 concurrent accounts.",
+        "Integrated CCXT exchange APIs and User Data Stream WebSockets for live account and order-state synchronisation.",
+        "Implemented automated hedging logic and an AI market-regime classification layer using Gemini/Gemma within a controlled paper-trading sandbox.",
+        "Improved resilience under high concurrency by handling WebSocket reconnection and packet-drop scenarios during volatile workloads."
       ],
-      tags: ["React 19", "Node.js", "Express", "WebSockets", "CCXT", "SQLite", "Google Gemini & Gemma"]
+      tags: ["React 19", "Node.js", "Express", "WebSockets", "CCXT", "SQLite", "Gemini", "Gemma"]
     },
     architect: {
       role: "CRYPTOBOT_MULTI_KERNEL_TERMINAL",
@@ -41,14 +41,15 @@ export const TIMELINE_DATA = [
     orderIndex: 7,
     executive: {
       role: "Hisaab-Kitaab | Offline-First Financial PWA",
-      company: "Independent Project",
-      description: "Developed a localized, offline-first Progressive Web Application (PWA) to digitize merchant credit ledgers, reducing manual transaction entry time by over 80%.",
+      company: "Independent Product / Full-Stack Project",
+      description: "Built an offline-first merchant ledger PWA that reduced manual transaction-entry effort by 80%+ through workflow automation.",
       achievements: [
-        "Designed a zero-latency offline persistence architecture utilizing Dexie.js (IndexedDB) with reactive live queries, bypassing spotty network connectivity with optional Firebase cloud sync",
-        "Built a dual-engine multimodal ingestion pipeline combining Gemini 3.1 Flash voice accounting with Tesseract.js OCR to automatically parse receipts, PDFs, and mobile money statements",
-        "Implemented strict UI/UX parity supporting English, Urdu, and Roman Urdu with dynamic Right-to-Left (RTL) layout switching"
+        "Built an offline-first merchant ledger PWA that reduced manual transaction-entry effort by 80%+ through workflow automation.",
+        "Designed zero-latency local persistence with IndexedDB/Dexie.js and optional Firebase synchronisation for unreliable connectivity.",
+        "Created a multimodal ingestion pipeline using Gemini Vision and Tesseract.js OCR to parse receipts, PDFs and mobile-money statements.",
+        "Implemented English, Urdu and Roman Urdu UI support with dynamic right-to-left (RTL) layout switching."
       ],
-      tags: ["React 19", "TypeScript", "Dexie.js", "Tailwind CSS", "Gemini 3.1 Flash", "Tesseract.js"]
+      tags: ["React 19", "TypeScript", "Dexie.js", "IndexedDB", "Tailwind CSS", "Gemini Vision", "Tesseract.js", "Firebase"]
     },
     architect: {
       role: "HISAAB_KITAAB_REACTIVE_LEDGER",
@@ -71,13 +72,13 @@ export const TIMELINE_DATA = [
     orderIndex: 8,
     executive: {
       role: "RepX AI | 3D WebGL Fitness Intelligence Platform",
-      company: "Independent Project",
-      description: "Engineered a high-performance fitness platform featuring an interactive 3D WebGL athlete anatomy model, utilizing custom GLSL bio-electric shaders and raycastable sub-muscle telemetry.",
+      company: "Independent Product / Full-Stack Project",
+      description: "Processed and normalised 605K+ dataset records across 3,213 canonical exercises using Polars to support deterministic recommendations.",
       achievements: [
-        "Developed a deterministic, multi-factor recommendation engine delivering <5ms response times by normalizing 605k+ dataset records using Polars across 3,213 canonical exercises",
-        "Solved mobile background timer throttling—a critical failure point during active workout sessions—by utilizing absolute Unix epoch calculations for deterministic state recovery",
-        "Enforced strict trust-bounded AI architectures by constraining LLM coaching strictly to pre-scored deterministic candidates, successfully eliminating generative exercise hallucinations",
-        "Secured local-first offline execution by wrapping IndexedDB storage in SHA-256 cryptographic envelopes"
+        "Processed and normalised 605K+ dataset records across 3,213 canonical exercises using Polars to support deterministic recommendations.",
+        "Engineered an interactive 3D athlete anatomy experience with custom GLSL visualisation and raycastable muscle telemetry.",
+        "Achieved sub-5ms recommendation responses and solved mobile background-timer throttling with Unix epoch-based deterministic state recovery.",
+        "Constrained AI coaching to pre-scored deterministic candidates and protected local-first IndexedDB data using SHA-256 cryptographic envelopes."
       ],
       tags: ["React 19", "TypeScript", "Three.js", "WebGL/GLSL", "IndexedDB", "Polars"]
     },
@@ -96,19 +97,22 @@ export const TIMELINE_DATA = [
   {
     id: "exp-hardware",
     section: "Experience",
-    role: "IT Infrastructure & Hardware Technician",
+    role: "Technical Specialist & Hardware Support",
     timeline: "Jan 2024 – Present",
-    location: "London, UK",
+    location: "London, UK | Hybrid",
     orderIndex: 5,
     executive: {
-      role: "IT Infrastructure & Hardware Technician",
-      company: "Independent Contracting (London, UK)",
-      description: "Perform component-level diagnostics, electronic repairs, and system recovery on compromised enterprise and consumer hardware.",
+      role: "Technical Specialist & Hardware Support",
+      company: "Independent Contractor",
+      description: "Perform component-level diagnostics, board repair and system recovery on consumer computers and laptops, including liquid-damaged motherboards and user-data recovery.",
       achievements: [
-        "Execute precision SMD micro-soldering, trace reconstruction, and multi-rail voltage impedance checks on liquid-damaged motherboards",
-        "Custom-engineer lithium-ion battery packs integrating active Battery Management Systems (BMS), successfully extending operational runtimes by 100%"
+        "Perform component-level diagnostics, board repair and system recovery on consumer computers and laptops, including liquid-damaged motherboards and user-data recovery.",
+        "Execute SMD micro-soldering, trace reconstruction and multi-rail voltage/impedance checks to isolate hardware faults.",
+        "Engineer custom power-management solutions and lithium-ion battery packs with active BMS integration, extending operational runtimes by up to 100%.",
+        "Plan and deploy physical/wireless networking: Cat6 routing and RJ-45 termination, gateway/router configuration, subnets and Wi-Fi access points.",
+        "Integrate IoT microcontrollers and relays with voice/smart ecosystems, considering circuit load and safe assembly."
       ],
-      tags: ["Component-Level Diagnostics", "SMD Micro-Soldering", "Active BMS", "Lithium-Ion", "Trace Reconstruction"]
+      tags: ["Component-Level Diagnostics", "SMD Micro-Soldering", "Active BMS", "Lithium-Ion", "Networking"]
     },
     architect: {
       role: "HARDWARE_DIAGNOSTICS_&_SYSTEMS_TECHNICIAN",
@@ -132,10 +136,11 @@ export const TIMELINE_DATA = [
     executive: {
       role: "Physical Infrastructure & CCTV Deployment Engineer",
       company: "Commercial & Residential Installations",
-      description: "Planned and executed on-premises CCTV surveillance networks, structured Cat6 network cabling, and local networking hardware installations for commercial facilities.",
+      description: "Planned and executed CCTV surveillance networks, structured Cat6 cabling and local networking installations for commercial and residential environments.",
       achievements: [
-        "Terminated and routed high-density Cat6 structured Ethernet cabling adhering strictly to T568B enterprise standards",
-        "Configured LAN/WLAN routers, subnetting, DHCP reservations, and port forwarding rules for secure remote NVR/DVR access"
+        "Planned and executed CCTV surveillance networks, structured Cat6 cabling and local networking installations for commercial and residential environments.",
+        "Terminated and routed high-density Ethernet cabling to T568B standards and configured LAN/WLAN networking equipment.",
+        "Configured subnetting, DHCP reservations and port-forwarding rules to enable secure remote NVR/DVR access."
       ],
       tags: ["CCTV (NVR/DVR)", "Cat6 Cabling", "LAN / WLAN", "Router Config", "Hardware Mounting"]
     },
@@ -155,17 +160,18 @@ export const TIMELINE_DATA = [
     id: "edu-comptia",
     section: "Education",
     role: "CompTIA A+ Certification Preparation",
-    timeline: "Target Completion: Nov 2026",
+    timeline: "Jan 2026 – Dec 2026 | In Progress",
     location: "London, UK",
     orderIndex: 3,
     executive: {
-      role: "CompTIA A+ Certification Preparation",
+      role: "CompTIA A+ — Professional Certification Track",
       company: "London, UK",
-      description: "Structured lab practice across Core 1 (220-1101) and Core 2 (220-1102) domains.",
+      description: "Preparing across Core 1 (220-1101) and Core 2 (220-1102), including PC/mobile hardware, operating systems, networking, troubleshooting and security baselines.",
       achievements: [
-        "Validating enterprise hardware diagnostics, Layer 2/3 networking protocols (TCP/IP, DNS, DHCP, VLANs), and multi-OS administration."
+        "Preparing across Core 1 (220-1101) and Core 2 (220-1102), including PC/mobile hardware, operating systems, networking, troubleshooting and security baselines.",
+        "Practical coverage of TCP/IP, DNS, DHCP, VLANs, Windows, macOS and Linux fundamentals."
       ],
-      tags: ["CompTIA A+", "Networking (TCP/IP)", "OS Diagnostics", "Virtualization", "Security"]
+      tags: ["CompTIA A+", "Networking", "OS Diagnostics", "Security", "Hardware"]
     },
     architect: {
       role: "COMPTIA_A+_CERTIFICATION_PIPELINE",
@@ -206,35 +212,6 @@ export const TIMELINE_DATA = [
         "Established theoretical principles bridging hardware electronics and software algorithms"
       ],
       tags: ["Computer Science", "Boolean Algebra", "Algorithms", "Physics", "Computational Logic"]
-    }
-  },
-  {
-    id: "edu-matric",
-    section: "Education",
-    role: "Matriculation (GCSE Equivalent)",
-    timeline: "Jan 2016 – Mar 2018",
-    location: "The Educators | Pakistan",
-    orderIndex: 1,
-    executive: {
-      role: "Matriculation (GCSE Equivalent)",
-      company: "The Educators",
-      description: "Science and Computer Science focus. Multilingual fluency: English, Urdu, Hindi, Punjabi.",
-      achievements: [
-        "Completed foundational secondary education with a focus on science and mathematics.",
-        "Demonstrated multilingual fluency: English, Urdu, Hindi, and Punjabi."
-      ],
-      tags: ["Matriculation", "Science", "Mathematics", "Multilingual", "Deductive Logic"]
-    },
-    architect: {
-      role: "MATRICULATION_GCSE_EQUIVALENT",
-      company: "THE_EDUCATORS_PAKISTAN",
-      description: "Core secondary education in science, algebra, physics, and foundational computer literacy.",
-      achievements: [
-        "Mastered foundational algebra, basic physics, and empirical scientific deduction",
-        "Developed multilingual communication capabilities facilitating international technical collaboration",
-        "Laid the initial groundwork for technical curiosity and electronics repair"
-      ],
-      tags: ["Foundations", "Science", "Mathematics", "Multilingual", "Deductive Logic"]
     }
   }
 ];

@@ -1,7 +1,7 @@
 // src/content/Hero_content.jsx
 const HERO_CONTENT = {
   executive: {
-    label: "Software Engineer",
+    label: "Full-Stack AI Software Engineer",
     title: "Building Highly Optimized, Fault-Tolerant Systems.",
     subtitle: "I specialize in real-time data streaming, offline-first architectures, and practical AI integrations to solve complex scaling bottlenecks.",
     ctaPrimary: "Explore Technical Projects",

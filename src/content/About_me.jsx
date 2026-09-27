@@ -2,7 +2,7 @@
 const ABOUT_CONTENT = {
   executive: {
     title: "Technical Expertise & Operational Reliability",
-    bio: "Software Engineer specializing in real-time architectures, offline-first PWAs, and AI integrations. Based in London with Full UK Right to Work, I bring a unique cross-disciplinary approach to solving complex scaling bottlenecks. Leveraging a deep foundation in physical IT infrastructure and hardware diagnostics, I build highly optimized, fault-tolerant systems.",
+    bio: "Full-Stack AI Software Engineer focused on real-time architectures, offline-first PWAs, and AI integrations. Based in London with unrestricted UK Right to Work (no sponsorship required), I bring a unique cross-disciplinary approach to solving complex scaling bottlenecks. Leveraging a deep foundation in physical IT infrastructure and hardware diagnostics, I build highly optimized, fault-tolerant systems.",
     metrics: [
       { label: "Software Systems", value: "Offline-First Architectures" },
       { label: "Frontend & 3D", value: "React 19 / Three.js" },

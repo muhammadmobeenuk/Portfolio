@@ -11,18 +11,18 @@ export const PROJECTS = [
       "/images/projects/cryptobot/CryptoBot4.png"
     ],
     executive: {
-      title: "CryptoBot 1.0 Terminal",
-      tagline: "High-Frequency Dual-Account Terminal & AI Bot Pilot",
-      description: "An institutional-grade algorithmic trading terminal designed to replicate strategies across multiple accounts in real-time. Features automated risk management (Delta-Neutral hedging), AI-driven market analysis, and a zero-risk virtual trading sandbox to test strategies without financial exposure. Built to handle extreme market volatility with zero latency.",
-      impact: "Real-Time WebSocket Mirroring & Delta Hedging",
-      techStack: ["React 19", "Lightweight Charts", "Node.js / Express", "WebSockets / Socket.IO", "Google Gemini & Gemma", "CCXT", "Better-SQLite3", "Tailwind CSS 4"],
+      title: "CryptoBot 1.0",
+      tagline: "Real-Time Algorithmic Execution Platform",
+      description: "Architected a real-time execution terminal using React, Node.js and WebSockets, with Master-to-Slave trade mirroring across up to 20 concurrent accounts.",
+      impact: "Real-Time WebSocket Mirroring & Hedge Parity",
+      techStack: ["React 19", "Node.js", "Express", "WebSockets", "CCXT", "SQLite", "Gemini", "Gemma"],
       keyMetrics: [
         { label: "Order Replication", value: "Real-Time WebSocket Sync" },
-        { label: "AI Bot Matrix", value: "Gemini 3.1 + Gemma 3 27B" },
+        { label: "AI Bot Matrix", value: "Gemini / Gemma" },
         { label: "Hedge Engine", value: "Delta-Neutral & Auto-Recovery" }
       ],
-      strategicTakeaway: "Eliminates execution slippage, latency asymmetry, and unhedged drawdowns across multi-account portfolios by coupling automated delta-neutral position hedging with real-time AI market regime classification and zero-risk paper trading simulation.",
-      businessChallenges: "Maintaining high-concurrency order execution parity across up to 20 accounts while handling WebSocket reconnection packet drops, dynamic ATR spread friction, and exchange rate-limit constraints during extreme volatility."
+      strategicTakeaway: "Integrated CCXT exchange APIs and User Data Stream WebSockets for live account and order-state synchronisation, while handling WebSocket reconnection scenarios during volatile workloads.",
+      businessChallenges: "Maintaining high-concurrency order execution parity across 20 accounts while handling WebSocket reconnection packet drops, and implementing AI market-regime classification."
     },
     architect: {
       title: "CRYPTOBOT_MULTI_KERNEL_ENGINE",
@@ -58,18 +58,18 @@ export const PROJECTS = [
       "/images/projects/hisaab-kitaab/hk-quick-add.png"
     ],
     executive: {
-      title: "Hisaab-Kitaab Finance App",
-      tagline: "Digital Ledger (Khata) & Offline-First PWA",
-      description: "A specialized financial ledger and business management application designed to digitize traditional credit for merchants. Engineered as an offline-first platform, it functions seamlessly without internet access. Features include hands-free voice accounting, automatic receipt scanning, and full multilingual support (English, Urdu) to drastically reduce manual data entry time.",
-      impact: "Offline-First Digital Ledger & OCR Ingestion",
-      techStack: ["React 19", "TypeScript", "Dexie.js (IndexedDB)", "Gemini 3.1 Flash", "Firebase", "Tailwind CSS v4", "Capacitor 8", "Tesseract.js"],
+      title: "Hisaab-Kitaab",
+      tagline: "Offline-First Financial PWA",
+      description: "Built an offline-first merchant ledger PWA that reduced manual transaction-entry effort by 80%+ through workflow automation.",
+      impact: "Zero-Latency Persistence & OCR Ingestion",
+      techStack: ["React 19", "TypeScript", "Dexie.js", "IndexedDB", "Tailwind CSS", "Gemini Vision", "Tesseract.js", "Firebase"],
       keyMetrics: [
         { label: "Offline Storage", value: "100% Local IndexedDB" },
         { label: "Document Ingestion", value: "PDF, OCR & CSV (Gemini)" },
         { label: "Localization", value: "Trilingual + RTL (Urdu)" }
       ],
-      strategicTakeaway: "Empowered small business owners to replace error-prone paper ledgers with an offline-resilient PWA and Android APK, reducing transaction entry time by over 80% through voice dictation and automatic receipt extraction.",
-      businessChallenges: "Micro-merchants in emerging markets frequently encounter spotty internet connectivity and informal accounting practices. Built an offline-first architecture using Dexie reactive live queries, dual-engine statement parsing (Gemini Vision + offline regex fallbacks for mobile money), and full Urdu RTL layout parity."
+      strategicTakeaway: "Designed zero-latency local persistence with IndexedDB/Dexie.js and optional Firebase synchronisation for unreliable connectivity.",
+      businessChallenges: "Created a multimodal ingestion pipeline using Gemini Vision and Tesseract.js OCR to parse receipts, PDFs and mobile-money statements, while implementing dynamic RTL layout switching."
     },
     architect: {
       title: "HISAAB_KITAAB_ENGINE",
@@ -106,18 +106,18 @@ export const PROJECTS = [
       "/images/projects/repx/RepX8.png"
     ],
     executive: {
-      title: "RepX AI : Gym Platform",
-      tagline: "Cybernetic Fitness Intelligence & 3D WebGL Telemetry",
-      description: "A highly resilient personal fitness intelligence platform built for active gym environments. Overcomes poor connectivity and device throttling by running entirely offline. Key features include an interactive 3D anatomy visualizer and an AI-powered recommendation engine that processes over 600,000 data points to deliver instant, customized workout plans with zero lag.",
-      impact: "3D WebGL Anatomy & Offline Resilience",
-      techStack: ["Three.js", "WebGL / GLSL", "React 19", "TypeScript", "Drizzle ORM", "PostgreSQL / PGlite", "Python (Polars)", "Google Gemini"],
+      title: "RepX AI",
+      tagline: "3D WebGL Fitness Intelligence Platform",
+      description: "Processed and normalised 605K+ dataset records across 3,213 canonical exercises using Polars to support deterministic recommendations.",
+      impact: "3D WebGL Anatomy & Sub-5ms Responses",
+      techStack: ["React 19", "TypeScript", "Three.js", "WebGL/GLSL", "IndexedDB", "Polars"],
       keyMetrics: [
         { label: "Data Processing", value: "605k+ Kaggle Records" },
         { label: "Recommendation Speed", value: "< 5ms Deterministic" },
         { label: "3D Anatomy Heads", value: "27 Sub-Muscles" }
       ],
-      strategicTakeaway: "Built an enterprise-grade fitness architecture combining 44×44px tactile gym-floor UI, zero layout shifts, local-first offline execution with background sync, and strict trust-bounded AI coaching that eliminates exercise hallucinations.",
-      businessChallenges: "Active workout sessions demand absolute reliability with zero latency and offline capability. Solved mobile background timer throttling using absolute Unix epoch calculations, and prevented generative AI hallucinations by constraining LLM coaching strictly to pre-scored deterministic candidates."
+      strategicTakeaway: "Engineered an interactive 3D athlete anatomy experience with custom GLSL visualisation and raycastable muscle telemetry, and achieved sub-5ms recommendation responses.",
+      businessChallenges: "Solved mobile background-timer throttling with Unix epoch-based deterministic state recovery. Constrained AI coaching to pre-scored deterministic candidates and protected local-first IndexedDB data using SHA-256 cryptographic envelopes."
     },
     architect: {
       title: "REPX_AI_CORE_PLATFORM",
@@ -144,9 +144,9 @@ export const PROJECTS = [
     id: 4,
     category: "Hardware Diagnostics & Electronics",
     executive: {
-      title: "Advanced Hardware Diagnostics & Repair",
+      title: "Technical Specialist & Hardware Support",
       tagline: "Component-Level Restoration & BMS Engineering",
-      description: "Performed highly technical component-level diagnostics and repair on damaged enterprise and consumer hardware. Engineered custom power management solutions, including battery management systems, to successfully extend equipment operational runtime by over 100%, demonstrating a deep understanding of low-level electronics and physical IT systems.",
+      description: "Perform component-level diagnostics, board repair and system recovery on consumer computers and laptops, including liquid-damaged motherboards and user-data recovery.",
       impact: "+100% Operational Runtime",
       techStack: ["Micro-Soldering", "BMS Integration", "Motherboard Diagnostics", "Li-ion Cells", "Multimeter"],
       keyMetrics: [
@@ -154,8 +154,8 @@ export const PROJECTS = [
         { label: "Salvage Success", value: "Liquid Damage Reversal" },
         { label: "Cell Configuration", value: "Balanced Li-ion Pack" }
       ],
-      strategicTakeaway: "Delivered component-level repair solutions that fully restored severely compromised hardware at a fraction of replacement cost, coupled with custom power mods.",
-      businessChallenges: "Microscopic corrosion bridging solder joints and shorting high-voltage supply rails to sensitive ground planes required micro-soldering and trace reconstruction."
+      strategicTakeaway: "Execute SMD micro-soldering, trace reconstruction and multi-rail voltage/impedance checks to isolate hardware faults.",
+      businessChallenges: "Engineer custom power-management solutions and lithium-ion battery packs with active BMS integration, extending operational runtimes by up to 100%."
     },
     architect: {
       title: "PCB_DIAGNOSTICS_&_BMS",

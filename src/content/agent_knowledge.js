@@ -62,11 +62,11 @@ export const CLI_COMMANDS = {
     output: [
       ">> HARDWARE & SYSTEMS RUNTIME TELEMETRY:",
       "  OPERATOR:         Muhammad Mobeen",
-      "  LOCATION:         London, NW9 6EJ, United Kingdom",
-      "  RIGHT TO WORK:    Full UK Right to Work (Spouse Visa - Verified)",
-      "  PRIMARY TARGET:   Systems-Minded Software Engineer",
-      "  CERTIFICATION:    CompTIA A+ (In Progress — Core 1 & 2 Domains)",
-      "  LANGUAGES:        English (Fluent), Urdu (Native), Hindi (Fluent), Punjabi (Fluent)",
+      "  LOCATION:         London, UK",
+      "  RIGHT TO WORK:    unrestricted — no sponsorship required",
+      "  PRIMARY TARGET:   Full-Stack AI Software Engineer",
+      "  CERTIFICATION:    CompTIA A+ (Jan 2026 – Dec 2026 | In Progress)",
+      "  LANGUAGES:        English (professional working), Urdu, Hindi, Punjabi",
       "  KERNEL STATUS:    Online (Vite 7 / React 19 / Express / Lightweight Charts / WebSockets / SQLite)"
     ]
   },
@@ -85,12 +85,11 @@ export const CLI_COMMANDS = {
     description: "Inspect Consolidated Master Timeline (Education, Projects, Experience)",
     output: [
       ">> CONSOLIDATED MASTER TIMELINE (CHRONOLOGICAL TELEMETRY RECORD):",
-      "  [01] [Education]   Matriculation (GCSE Equivalent)         :: Jan 2016 – Mar 2018 | Pakistan",
-      "  [02] [Education]   Super Wings (I.C.S)                     :: Jul 2018 – Apr 2020 | Pakistan",
-      "  [03] [Experience]  Physical Infrastructure & CCTV Setup    :: Sep 2022 – Dec 2023 | Pakistan",
-      "  [04] [Experience]  Independent Full-Stack Development      :: Sep 2023 – Present  | Independent",
-      "  [05] [Experience]  IT Infrastructure & Hardware Technician :: Jan 2024 – Present  | London, UK",
-      "  [06] [Education]   CompTIA A+ Certification Prep           :: Target Nov 2026     | London, UK",
+      "  [01] [Education]   Super Wings (I.C.S)                     :: Jul 2018 – Apr 2020 | Pakistan",
+      "  [02] [Experience]  Physical Infrastructure & CCTV Setup    :: Sep 2022 – Dec 2023 | Pakistan",
+      "  [03] [Experience]  Independent Full-Stack Development      :: Sep 2023 – Present  | Independent",
+      "  [04] [Experience]  Technical Specialist & Hardware Support :: Jan 2024 – Present  | London, UK",
+      "  [05] [Education]   CompTIA A+ — Professional Track         :: Jan 2026 – Dec 2026 | London, UK",
       "",
       "Type 'hardware', 'network', 'cryptobot', 'repx', or 'comptia' for deep-dive technical telemetry."
     ]
@@ -182,12 +181,12 @@ export const CLI_COMMANDS = {
     output: [
       ">> DIRECT COMMUNICATION CHANNELS:",
       "  PHONE:         07351187884",
-      "  EMAIL:         muhammadmobeen20011@gmail.com",
-      "  LOCATION:      London, NW9 6EJ, United Kingdom",
-      "  RIGHT TO WORK: Full Right to Work in the UK (Spouse Visa)",
-      "  LINKEDIN:      https://www.linkedin.com/in/muhammadmobeenuk",
-      "  GITHUB:        https://github.com/Mobeen-2024",
-      "  PORTFOLIO:     https://my-project-portfolios-projects-ed15ad56.vercel.app/"
+      "  EMAIL:         m.mobeen.2024@gmail.com",
+      "  LOCATION:      London, UK",
+      "  RIGHT TO WORK: unrestricted — no sponsorship required",
+      "  LINKEDIN:      linkedin.com/in/muhammad-mobeen-8120b3347",
+      "  GITHUB:        github.com/Mobeen-2024",
+      "  PORTFOLIO:     my-project-ten-kappa-15.vercel.app"
     ]
   }
 };
@@ -196,7 +195,7 @@ export const EXECUTIVE_ANSWERS = {
   timeline: {
     title: "Consolidated Master Timeline & Milestones",
     thoughtTrace: "Retrieving verified chronological record across education, projects, and enterprise experience...",
-    response: "Muhammad Mobeen's verified non-overlapping chronological record spans: (1) Matriculation (GCSE Equivalent) — The Educators (Jan 2016 – Mar 2018, Pakistan), (2) Super Wings (Intermediate in Computer Science / I.C.S, Jul 2018 – Apr 2020, Pakistan), (3) Physical Infrastructure & CCTV Deployment (Sep 2022 – Dec 2023, Pakistan), (4) Independent Full-Stack Development (Sep 2023 – Present, Independent), (5) IT Infrastructure & Hardware Technician (Jan 2024 – Present, London, UK), and (6) CompTIA A+ Certification Prep (Target Nov 2026, London, UK)."
+    response: "Muhammad Mobeen's verified chronological record spans: (1) Super Wings (Intermediate in Computer Science / I.C.S, Jul 2018 – Apr 2020, Pakistan), (2) Physical Infrastructure & CCTV Deployment (Sep 2022 – Dec 2023, Pakistan), (3) Independent Full-Stack Development (Sep 2023 – Present, Independent), (4) Technical Specialist & Hardware Support (Jan 2024 – Present, London, UK), and (5) CompTIA A+ Professional Certification Track (Jan 2026 – Dec 2026, London, UK)."
   },
   comptia: {
     title: "CompTIA A+ Certification & Systems Mastery",
@@ -236,7 +235,7 @@ export const EXECUTIVE_ANSWERS = {
   contact: {
     title: "Direct Contact Coordinates & UK Right to Work",
     thoughtTrace: "Retrieving verified contact details and visa status...",
-    response: "Muhammad Mobeen is based in London, NW9 6EJ, and holds Full Right to Work in the UK under a Spouse Visa. You can reach him directly at 07351187884, via email at muhammadmobeen20011@gmail.com, or connect on LinkedIn at https://www.linkedin.com/in/muhammadmobeenuk."
+    response: "Muhammad Mobeen is based in London, UK, and holds unrestricted right to work in the UK with no sponsorship required. You can reach him directly at 07351187884, via email at m.mobeen.2024@gmail.com, or connect on LinkedIn at linkedin.com/in/muhammad-mobeen-8120b3347."
   },
   languages: {
     title: "Multilingual Communication",

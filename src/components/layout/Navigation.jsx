@@ -117,7 +117,7 @@ export default function Navigation({ isGodMode, isScanning, onScan, activeLabel,
           <div className="flex items-center gap-2 md:gap-3">
             {/* LinkedIn Quick Link */}
             <a
-              href="https://www.linkedin.com/in/muhammadmobeenuk"
+              href="https://linkedin.com/in/muhammad-mobeen-8120b3347"
               target="_blank"
               rel="noreferrer"
               title="Connect on LinkedIn"
@@ -220,7 +220,7 @@ export default function Navigation({ isGodMode, isScanning, onScan, activeLabel,
               {/* Mobile LinkedIn Link Row */}
               <li className="pt-2 border-t border-current/10">
                 <a
-                  href="https://www.linkedin.com/in/muhammadmobeenuk"
+                  href="https://linkedin.com/in/muhammad-mobeen-8120b3347"
                   target="_blank"
                   rel="noreferrer"
                   className={`w-full flex items-center justify-between px-4 py-2.5 rounded-xl text-xs uppercase font-bold tracking-wider transition-colors ${

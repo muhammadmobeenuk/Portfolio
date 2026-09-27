@@ -341,7 +341,7 @@ function App() {
               <span>Back to Top</span>
             </button>
             <a 
-              href="https://www.linkedin.com/in/muhammadmobeenuk" 
+              href="https://linkedin.com/in/muhammad-mobeen-8120b3347" 
               target="_blank" 
               rel="noreferrer"
               className={`flex items-center gap-1 hover:underline ${
