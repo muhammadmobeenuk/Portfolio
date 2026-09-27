@@ -277,11 +277,11 @@ export function processExecutiveQuery(queryText) {
   if (normalized.includes("network") || normalized.includes("cctv") || normalized.includes("cable") || normalized.includes("router") || normalized.includes("lan") || normalized.includes("wlan")) {
     return EXECUTIVE_ANSWERS.networking;
   }
-  if (normalized.includes("case") || normalized.includes("project") || normalized.includes("work") || normalized.includes("build") || normalized.includes("app")) {
-    return EXECUTIVE_ANSWERS.projects;
-  }
   if (normalized.includes("contact") || normalized.includes("book") || normalized.includes("hire") || normalized.includes("email") || normalized.includes("phone") || normalized.includes("visa") || normalized.includes("location") || normalized.includes("right to work")) {
     return EXECUTIVE_ANSWERS.contact;
+  }
+  if (normalized.includes("case") || normalized.includes("project") || normalized.includes("work") || normalized.includes("build") || normalized.includes("app")) {
+    return EXECUTIVE_ANSWERS.projects;
   }
   if (normalized.includes("language") || normalized.includes("speak") || normalized.includes("urdu") || normalized.includes("english") || normalized.includes("hindi") || normalized.includes("punjabi")) {
     return EXECUTIVE_ANSWERS.languages;
